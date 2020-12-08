@@ -1,0 +1,35 @@
+"""
+1.Mutable
+2.[]
+3.Ordered
+4.Changeable
+"""
+#----------------------------CREATION
+list1=[1,2,2,3,4,5,5,'MUMBAI','BHAGALPUR','MUMBAI']
+print(list1);
+#------------------SIZE
+print(list1)
+print(len(list1))
+#------------------ADDING ELEMENT
+#append()
+list1.append('AYODHYA');
+print(list1)
+#insert()
+list1.insert(8,6)
+print(list1)
+#extend()
+list1.extend(['CHENNAI','AHEMDABAD',100,200])
+print(list1)
+#----------------------ACCESSING 
+print(list1[0])
+print(list1[1])
+#---------------------REMOVE ELEMENTS
+#remove()
+list1.remove(100)
+print(list1)
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+#pop()
+list2=[1,2,3,4,5]
+print(list2)
+list2.pop()
+print(list2)

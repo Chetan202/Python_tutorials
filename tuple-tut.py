@@ -1,0 +1,14 @@
+"""
+1.Immutable
+2.Ordered
+3.()
+"""
+#------------------------------CREATION
+tuple1=(56,87,'MUMBAI')
+print(tuple1)
+#------------------------------ACCESSING
+print(tuple1[0])
+print(tuple1[-1])
+#------------------------------Repetation
+tuple3=('RAM',)*3
+print(tuple3)
